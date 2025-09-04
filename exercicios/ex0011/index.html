@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Midias em HTML5</title>
+</head>
+<body>
+     <h1>Imagem Dinâmica</h1>
+     <p>Tente abrir em plataformas diferentes ou aumenteo e diminua o tamanho da janela</p>
+     <picture>
+          <source media="(max-width: 850px )" srcset="images/foto-p.png" type="image/png">
+          <source media="(max-width: 1050px )" srcset="images/foto-m.png" type="image/png">
+          <img src="images/foto-g.png" alt="imagem flexível">
+     </picture>
+     <h1>Reproduzindo audio</h1>
+     <p>Vamos inserir um audio no site em html 5</p>
+     <audio src="media/temaharrypotter.mp3" controls ></audio>
+     <!--MP3 WAV e OGG-->
+     <h2>E temos a segunda forma e mais funcional</h2>
+     <p>Veja a seguir</p>
+     <audio preload="metadata" controls loop >
+          <source src="media/temaharrypotter.mp3" type="audio/mpeg">
+          <source src="media/temaharrypotter.ogg" type="audio/ogg">
+          <source src="media/temaharrypotter.wav" type="audio/wav">
+
+     </audio>
+      <p>Clique <a href="media/temaharrypotter.mp3" download="temaharrypotter.mp3" type="audio/mpeg">aqui</a> para baixar o arquivo mp3</p>
+     
+</body>
+</html>

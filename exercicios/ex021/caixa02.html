@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Grouping Tags</title>
+     <style>
+          body{
+               font-family: Arial, Helvetica, sans-serif;
+               background-color: lightgrey;
+
+               
+          }
+          header{
+               width: auto;
+               background-color: white;
+               padding: 10px;
+               margin: 0px;
+          }
+
+
+          nav{
+               background-color: rgb(53, 51, 51);
+               padding: 3px;
+               box-shadow: 1px 1px 1px black;
+     
+          }
+
+          nav > a{
+               text-decoration: none;
+               color: white;
+               font-weight: bold;
+               margin-right: 50px;
+               
+          }
+
+          nav > a:hover{
+               text-decoration: overline;
+          }
+          main{
+               background-color: white;
+               padding: 10px;
+               margin: 10px;
+               border-radius: 20px 0px;
+               box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.692);
+
+          }
+
+          article{
+               background-color: lightgrey;
+          }
+
+          article > aside{
+               background-color: rgb(122, 112, 112);
+          }
+
+          footer{
+               background-color: black;
+               color: white;
+               text-align: center;
+               padding: 1px;
+               margin: 1px;
+          }
+
+          footer > p {
+               margin: 0px;
+          }
+
+          /*div#bola{
+               height: 100px;
+               width: 100px;
+               margin: 10px;
+               background-color: white;
+               border-radius: 50%;
+          }*/
+     </style>
+</head>
+<body>
+     <header>
+          <h1>Meu Site</h1>
+          <nav>
+               <a href="#">Inicio</a>
+               <a href="#">Tutoriais</a>
+               <a href="#">Downloads</a>
+               <a href="#">Contato</a>
+               <a href="#">Créditos</a>
+          </nav>
+     </header>  
+     <main>
+          <section>
+               <section>
+                    <article>
+                         <h2>Noticias do Lule
+                              <p>
+                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, libero blanditiis maxime corporis dolor odit dolores maiores ducimus, earum veritatis iste excepturi. Repudiandae vel neque rerum nisi voluptatum mollitia ut.
+                              </p>
+                         </h2>
+                         <aside>
+                              Artigo por Flei
+                         </aside>
+                    </article>
+               </section>
+          </section>
+     </main>
+     <footer>
+          <p>Desenvolvido por Felipe</p>
+     </footer>
+     <div id="bola"></div>
+
+
+
+</body>
+</html>
