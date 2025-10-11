@@ -11,17 +11,25 @@
 
           table{
                width: 400px;
+               height: 400px;
                border-collapse: collapse;
                border: 2px solid black;
+
           }
 
           td {
                border: 1px solid black;
                padding: 5px;
+               text-align: center;
+               vertical-align: middle;
           }
 
           tr.linha_colorida {
                background-color: rgba(128, 128, 128, 0.473);
+          }
+
+          .dado{
+               background-color: yellow;
           }
      </style>
 </head>
@@ -35,7 +43,7 @@
                     TABLE DATA = DADO DE TABELA
 -->
      <table>
-          <tr class="linha_colorida"> <!-- Primeira linha -->
+          <tr> <!-- Primeira linha -->
                <td>A1</td> 
                <td>B1</td> 
                <td>C1</td>
@@ -45,7 +53,7 @@
                <td>B2</td>
                <td>C2</td>
           </tr>
-          <tr class="linha_colorida">
+          <tr>
                <td>A3</td>
                <td>B3</td>
                <td>C3</td>
